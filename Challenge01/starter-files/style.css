@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+}
+h1 {
+  font-size: 2.25rem;
+}
+.text-p {
+  font-size: 1.875rem;
+}
+/* ----------------------Colors----------------------------------------- */
+
+.blue {
+  background-color: #638caa;
+}
+.gray {
+  background-color: #dbdbdb;
+}
+.brown {
+  background-color: #bcb9aa;
+}
+.green {
+  background-color: #9ce0d1;
+}
+.purple {
+  background-color: #9aa7b8;
+}
+.light-blue {
+  background-color: #b7ced6;
+}
+.orange {
+  background-color: #f09e84;
+}
+.dark-purple {
+  background-color: #514354;
+}
+.white-font {
+  color: white;
+}
+
+/* ------------------Header---Row 1-------------------------------------*/
+header {
+  overflow: auto;
+}
+.row1 {
+  margin-right: 6.25rem;
+  clear: both;
+}
+.logo {
+  float: left;
+  width: 2%;
+}
+.logo > img {
+  max-width: 100%;
+  max-height: auto;
+  margin-top: .625rem;
+  margin-left: 6.25rem;
+}
+.navbar {
+  float: right;
+}
+.navbar ul {
+  list-style-type: none;
+  margin-top: 1.875rem;
+}
+.navbar li {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #514354;
+  text-decoration: underline red;
+}
+.apple-devices {
+  margin-top: 6.25rem;
+  text-align: center;
+  margin-bottom: .625rem;
+}
+.apple-devices > img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*----------------------Main----Row 2-----------------------------------*/
+
+.row2 {
+  text-align: center;
+  clear: both;
+}
+.row2-content {
+  display: inline-block;
+  margin-top: 1.875rem;
+}
+.a2 {
+  width: 25%;
+  height: 12.5rem;
+  float: left;
+}
+.b2 {
+  width: 25%;
+  height: 12.5rem;
+  float: left;
+}
+.c2 {
+  width: 25%;
+  height: 12.5rem;
+  float: left;
+}
+.d2 {
+  width: 25%;
+  height: 12.5rem;
+  float: left;
+}
+
+/*----------------------Main----Row 3-----------------------------------*/
+.row3 {
+  clear: both;
+}
+.a3 {
+  width: 50%;
+  height: 25rem;
+  float: left;
+  position: relative;
+}
+.a3 > img {
+  position: absolute;
+  top: 0.625rem;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 90%;
+  max-height: 90%;
+}
+.b3 {
+  width: 50%;
+  height: 25rem;
+  float: right;
+  text-align: center;
+}
+.b3 > p {
+  text-align: justify;
+  margin: 3.75rem 2.5rem 1.25rem;
+  font-size: 1.125rem;
+}
+
+/*--------------Main-----Row-4-----------------------------------------*/
+
+.row4 {
+  clear: both;
+}
+.a4 {
+  width: 50%;
+  height: 25rem;
+  float: left;
+  text-align: center;
+}
+.a4 > p {
+  text-align: justify;
+  margin: 3.75rem 2.5rem 1.25rem;
+  font-size: 1.125rem;
+}
+.b4 {
+  width: 50%;
+  height: 25rem;
+  float: right;
+  position: relative;
+}
+.b4 > img {
+  position: absolute;
+  top: 1.5625rem;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/*------------Main----Row-5------------------------------------------*/
+
+.row5 {
+  clear: both;
+}
+.a5 {
+  width: 50%;
+  height: 25rem;
+  float: left;
+  position: relative;
+}
+.a5 > img {
+  position: absolute;
+  top: 1.5625rem;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 90%;
+  max-height: 90%;
+}
+.b5 {
+  width: 50%;
+  height: 23.75rem;
+  float: left;
+  text-align: center;
+}
+.b5 > p {
+  text-align: justify;
+  margin: 3.75rem 2.5rem 1.25rem;
+  font-size: 1.125rem;
+}
+
+/*------------Main----Row-6------------------------------------------*/
+
+.row6 {
+  clear: both;
+  text-align: center;
+}
+.a6 {
+  width: 33%;
+  height: 12.5rem;
+  float: left;
+}
+.a6 > p {
+  margin-top: 3.75rem;
+}
+.b6 {
+  width: 34%;
+  height: 12.5rem;
+  float: left;
+}
+.b6 > p {
+  margin-top: 3.75rem;
+}
+.c6 {
+  width: 33%;
+  float: left;
+  height: 12.5rem;
+}
+.c6 > p {
+  margin-top: 3.75rem;
+}
+
+/*------------------Footer-----Row 7----------------------------*/
+
+.row7 {
+  text-align: center;
+  clear: both;
+}
+.a7 {
+  width: 100%;
+  height: 15.625rem;
+  position: relative;
+}
+.a7-content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.a7-content a {
+  display: inline-block;
+  margin: 3rem;
+}
+.fa-brands {
+  color: white;
+}
+.fa-brands:hover {
+  color: #514354;
+}
+.b7 {
+  width: 100%;
+  height: 9.375rem;
+  position: relative;
+  text-align: center;
+}
+.b7 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
