@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+@use 'sass:math';
+
+.full-website{
+    width:100%;
+    display: flex;
+    @include mix.tablet-styles{
+      display: block;
+    }
+  }
