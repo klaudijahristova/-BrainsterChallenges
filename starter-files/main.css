@@ -1,0 +1,25 @@
+.container-fluid{
+  background-image: url(images/img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: bottom;
+}
+.first-part{
+  background: linear-gradient(rgba(10, 10, 10, 0.658),
+  rgba(10, 10, 10, 0.3));
+}
+.keyboard{
+  background: linear-gradient(rgba(50, 56, 56, 0.3),
+  rgba(60, 56, 56, 0.3));
+}
+.btn{
+  border: 5px solid black;
+  background: linear-gradient(rgba(10, 10, 10, 0.658),
+  rgba(10, 10, 10, 0.3));
+}
+.btn:hover{
+background-color: black;
+border: 5px solid black;
+}
+
