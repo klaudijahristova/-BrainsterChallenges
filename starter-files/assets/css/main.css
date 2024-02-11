@@ -1,0 +1,112 @@
+body{
+  font-size: .75rem;
+}
+/*................Colors................................. */
+.custom-color-dark-gray{
+  background-color: #333333;
+}
+.custom-color-dark-gray2{
+  background-color:#212121 ;
+}
+.custom-color-black1{
+  color: #000000;
+}
+.custom-color-black{
+  background-color: #000000;
+}
+.custom-color-red{
+  background-color: #ff0000;
+}
+.custom-color-blue{
+  background-color:#334fff ;
+}
+/* ..................Navbar............... */
+.navbar .nav-item.active{
+  border-left: white 2px solid;
+}
+.navbar-nav{
+  border-top: 3px groove #000000 ;
+  padding-top: 15px;
+}
+@media (min-width: 426px) {
+  .navbar-nav{
+    border-top: none ;
+    padding-top: 0px;
+  }
+}
+button.navbar-toggler{
+  --bs-navbar-toggler-border-color:none;
+}
+nav.navbar{
+  --bs-navbar-brand-color:rgba(255, 255, 255, 0.75);
+}
+/*......................Home...........................  */
+.carousel-item, #about-s1{
+  height: 450px;
+}
+.carousel-bg-1{
+  background-image: url('../../Images/image1.jpg');
+  background-size: cover;
+}
+.carousel-bg-2{
+  background-image: url('../../Images/image2.jpg');
+  background-size: cover;
+}
+.carousel-bg-3{
+  background-image: url('../../Images/image3.jpg');
+  background-size: cover;
+}
+.btn-sm{
+  font-size: .8125rem;
+} 
+.carousel-caption{
+  bottom:auto;
+  }
+#parallax-1{
+  background:url(../../Images/lights.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+  background-size:cover;
+}
+#video-S5{
+  background:url(../../Images/media.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+  background-size:cover;
+  background-color: hsla(0, 0%, 3%, 0.7);
+  background-blend-mode: saturation;
+}
+/*.........................About................................ */
+#about-s1{
+  background-image: url(../../Images/image1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+ @media (min-width: 992px) {
+  #about-s1{
+    background-size: cover;
+  }
+}
+.h-55{
+  height: 55px;
+}
+.margin{
+  margin-top: -50px;
+  z-index: 1;
+}
+/*.........................Services................................ */
+.card-header{
+  font-size: .875rem;
+}
+.accordion-button:not(.collapsed){
+  background-color:#212121;
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after{
+  display: none;
+}
+.accordion{
+  --bs-accordion-border-width: none;
+}

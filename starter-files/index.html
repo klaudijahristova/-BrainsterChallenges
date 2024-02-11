@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP CSS FILE -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- LOCAL MAIN CSS-->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!----------------- Navbar -------------------------->
+    <nav class="navbar navbar-expand-sm navbar-dark custom-color-dark-gray">
+      <div class="container-fluid text-uppercase p-0">
+        <a class="navbar-brand ps-3" href="index.html">glozzom</a>
+       
+        <button
+          class="navbar-toggler me-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+        >
+        <span class="fa-sharp fa-solid fa-bars text-white"></span>
+        
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end mt-2"
+          id="navbarToggler"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active" aria-current="true">
+              <a class="nav-link active ps-3" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-3" href="about.html">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-3" href="services.html">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-3" href="blog.html">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3 ps-3" href="contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!------------------------- Section 1 ------------------------->
+    <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#bannerCarousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li data-bs-target="#bannerCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#bannerCarousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-bg-1">
+          <div
+            class="carousel-caption d-none d-sm-block text-end top-50 translate-middle-y"
+          >
+            <p class="h2">Heading One</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn btn-danger btn-sm">Sing Up Now</a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-bg-2">
+          <div
+            class="carousel-caption d-none d-sm-block top-50 translate-middle-y"
+          >
+            <p class="h2">Heading Two</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item carousel-bg-3">
+          <div
+            class="carousel-caption d-none d-sm-block top-50 translate-middle-y"
+          >
+            <p class="h2">Heading Three</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn btn-success btn-sm">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#bannerCarousel"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#bannerCarousel"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <!----------------------- Section 2 ------------------------------->
+    <div class="py-3" id="icon-section">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-sm-12">
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <i class="fa-solid fa-gear fa-2x"></i>
+                <p class="h6">Turning Gears</p>
+                <p>
+                  Erant interpretarjs ut mea, causae injmjcus expetenda an eam.
+                  Adiptscing elit erant.
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <i class="fa-solid fa-cloud fa-2x"></i>
+                <p class="h6">Sending Data</p>
+                <p>
+                  Erant interpretarjs ut mea, causae injmjcus expetenda an eam.
+                  Adiptscing elit erant.
+                </p>
+              </div>
+              <div class="col-md-4 text-center">
+                <i class="fa-solid fa-cart-shopping fa-2x"></i>
+                <p class="h6">Making Money</p>
+                <p>
+                  Erant interpretarjs ut mea, causae injmjcus expetenda an eam.
+                  Adiptscing elit erant.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------- Section 3------------------------>
+    <div id="parallax-1" class="p-4 text-white">
+      <div class="row">
+        <div class="col">
+          <div class="container text-center">
+            <p class="h3">Are You Ready To Get Started?</p>
+            <p class="  m-0 text-white">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------Section 4---------------------->
+    <div class="container-fluid py-3">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-sm-12">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <p class="h5">Lorem Ipsum</p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt.
+              </p>
+              <a href="about.html" class="btn btn-outline-danger btn-sm"
+                >Learn More</a
+              >
+            </div>
+            <div class="col-md-6">
+              <img src="./Images/laptop.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------- Section 5 ------------------------->
+    <div class="container-fluid p-4 bg-image-video text-white" id="video-S5">
+      <div class="row">
+        <div class="col text-center">
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa-solid fa-play fa-2x text-white"></i>
+          </button>
+          <p class="h3">See What we do</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              id="video"
+              width="100%"
+              height="350"
+              src="https://www.youtube.com/embed/sA2vgFR-fZc"
+              frameborder="0"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------- Section 6 ------------------------->
+
+    <!-- Button trigger modal -->
+    <div class="container-fluid py-4 text-center justify-content-center">
+      <p class="h3">Photo gallery</p>
+      <p class="text-center">Check out our photos</p>
+      <div class="row">
+        <div class="col-lg-8 col-sm-12 m-auto">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 mb-4">
+              <img
+                src="./Images/1.png"
+                type="image"
+                class="img-fluid"
+                data-bs-toggle="modal"
+                data-bs-target="#image1"
+              />
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+              <img
+                src="./Images/2.png"
+                type="image"
+                class="img-fluid"
+                data-bs-toggle="modal"
+                data-bs-target="#image2"
+              />
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+              <img
+                src="./Images/3.png"
+                type="image"
+                class="img-fluid"
+                data-bs-toggle="modal"
+                data-bs-target="#image3"
+              />
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+              <img
+                src="./Images/4.png"
+                type="image"
+                class="img-fluid"
+                data-bs-toggle="modal"
+                data-bs-target="#image4"
+              />
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+              <img
+                src="./Images/5.png"
+                type="image"
+                class="img-fluid"
+                data-bs-toggle="modal"
+                data-bs-target="#image5"
+              />
+            </div>
+            <div class="col-md-4 col-sm-12 mb-md-4">
+              <img
+                src="./Images/6.png"
+                type="image"
+                class="img-fluid"
+                data-bs-toggle="modal"
+                data-bs-target="#image6"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="image1"
+      tabindex="-1"
+      aria-labelledby="image1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body w-100 h-100">
+            <img src="./Images/1.png" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image2"
+      tabindex="-1"
+      aria-labelledby="image2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body w-100 h-100">
+            <img src="./Images/2.png" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image3"
+      tabindex="-1"
+      aria-labelledby="image3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body w-100 h-100">
+            <img src="./Images/3.png" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image4"
+      tabindex="-1"
+      aria-labelledby="image4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body w-100 h-100">
+            <img src="./Images/4.png" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image5"
+      tabindex="-1"
+      aria-labelledby="image5Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body w-100 h-100">
+            <img src="./Images/5.png" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image6"
+      tabindex="-1"
+      aria-labelledby="image6Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body w-100 h-100">
+            <img src="./Images/6.png" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------- Section 7---------------->
+    <div class="container-fluid custom-color-dark-gray text-center text-white py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-sm-12">
+          <p class="h3">Sign Up For Our Newsletter</p>
+          <p>
+            Lorem isum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor inciddunt ut labore et dolore magna aliqua. Lorem
+            ipsum dolor sit amet, consectetur.
+          </p>
+
+          <div class="col-lg-9 col-md-5 col-sm-12 m-md-auto">
+            <form class="d-md-flex">
+              <input
+                class="form-control me-4 mb-3 mb-md-0"
+                type="text"
+                placeholder="Enter Name"
+              />
+              <input
+                class="form-control me-4 mb-3 mb-md-0"
+                type="email"
+                placeholder="Enter Email"
+              />
+              <a href="" class="btn btn-primary">Submit</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!----------------------------- Footer------------------------->
+<footer id="main-footer" class="text-center text-white p-3 bg-dark">
+  <div class="container">
+      <div class="row mt-3">
+          <div class="col">
+              <p>  
+              Copyright 2018 &copy; Glozzom
+          </p>
+          </div>
+      </div>
+  </div>
+</footer>
+    <!-- POPPER JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8c8fc63faf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
