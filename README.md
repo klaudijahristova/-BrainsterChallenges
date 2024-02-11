@@ -1,4 +1,4 @@
-# Academy Web Development Challenges Repository
+# Academy Web Development Challenges 
 
 ## Introduction
 This repository is a comprehensive collection of web development challenges I encountered during my time at the academy. It spans a wide array of technologies and frameworks, including HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, AJAX, React, Next.js, and TypeScript. Each module's challenges were designed to deepen my understanding and proficiency in these areas, reflecting my learning and growth as a web developer.
