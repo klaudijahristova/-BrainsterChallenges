@@ -1,0 +1,19 @@
+.filter-wrapper {
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .gender {
+    border-top: 0.5px solid rgb(199, 193, 193);
+    padding-top: 20px;
+  }
+  .brand {
+    border-top: 0.5px solid rgb(199, 193, 193);
+    padding-top: 20px;
+  }
+  .bg-orange {
+    background-color: orange;
+  }
+  .filter-p:hover {
+    color: orange;
+  }
