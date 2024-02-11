@@ -1,0 +1,16 @@
+@use "../../css/abstracts/variables" as var;
+@use "../../css/abstracts/mixins" as mix;
+
+.decription {
+  color: var.$text-color-primary;
+  h2 {
+    font-size: var.$heading-size-big;
+    font-weight: var.$font-weight-bold;
+    @media only screen and (max-width: 426px) {
+      font-size: 30px;
+    }
+  }
+}
+.filterEfect{
+  filter: sepia(50%) contrast(90%) saturate(1.6) brightness(70%);
+}

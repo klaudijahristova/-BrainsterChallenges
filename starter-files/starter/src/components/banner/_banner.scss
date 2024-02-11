@@ -1,0 +1,33 @@
+@use "../../css/abstracts/variables" as var;
+@use "../../css/abstracts/mixins" as mix;
+
+.bannerWrapper {
+  background-image: url(https://fastly.picsum.photos/id/62/2000/1333.jpg?hmac=PbFIn8k0AndjiUwpOJcfHz2h-wPCQi_vJRTJZPdr6kQ);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner {
+  @extend %wrap;
+  color: var.$text-color-primary;
+  h1 {
+    font-size: var.$heading-size-bigger;
+    font-weight: var.$font-weight-bold;
+    @media only screen and (max-width: 437px) {
+      font-size: var.$heading-size-big;
+    }
+    @media only screen and (max-width: 329px) {
+      font-size: 42px;
+    }
+  }
+  a {
+    color: var.$text-color-base;
+    font-size: var.$font-size-small;
+    font-weight: 500;
+    padding: 10px 30px;
+    background-color: var.$background-color-base;
+    @media only screen and (max-width: 426px) {
+      display: grid;
+      text-align: center;
+    }
+  }
+}

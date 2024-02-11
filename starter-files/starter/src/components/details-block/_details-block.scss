@@ -1,0 +1,52 @@
+@use "../../css/abstracts/variables" as var;
+@use "../../css/abstracts/mixins" as mix;
+
+.block {
+  @extend %wrap;
+
+  @media only screen and (max-width: 426px) {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    width: 50%;
+    span {
+      color: var.$text-color-secondary;
+    }
+    h2 {
+      font-size: var.$heading-size-big;
+      font-weight: var.$font-weight-bold;
+      @media only screen and (max-width: 426px){
+        font-size: 30px;
+      }
+    }
+    @media only screen and (max-width: 426px) {
+      width: 100%;
+    }
+  }
+  .picture {
+    width: 35vw;
+    height: 35vw;
+    @media only screen and (max-width: 868px) {
+      width: 40vw;
+      height: 40vw;
+      margin: auto 0;
+    }
+    @media only screen and (max-width: 426px) {
+      width: 93vw;
+      height: 93vw;
+      margin-top: 30px;
+    }
+    @media only screen and (max-width: 375px) {
+      width: 92vw;
+      height: 92vw;
+    }
+    @media only screen and (max-width: 375px) {
+      width: 91vw;
+      height: 91vw;
+    }
+    img {
+      border-radius: 50%;
+    }
+  }
+}
