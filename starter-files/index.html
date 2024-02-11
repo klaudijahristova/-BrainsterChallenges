@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <ul id="unorderedList1"></ul>
+    <ul id="unorderedList2"></ul>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Max Pages</th>
+          <th>On Page</th>
+          <th>Progress</th>
+        </tr>
+      </thead>
+      <tbody id="showProgress"></tbody>
+    </table>
+    <h3>Add a book to the list:</h3>
+    <form>
+      <input type="text" placeholder="Book Title" id="booksTitle" />
+      <input type="text" placeholder="Book Author" id="booksAuthor" />
+      <input type="text" placeholder="Current Page On..." id="currentPage" />
+      <input type="text" placeholder="Book Max Pages" id="booksMaxPages" />
+      <button type="submit" id="submit">Add to List</button>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
