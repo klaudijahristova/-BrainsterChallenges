@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bikes</title>
+    <meta name="keywords" content="html,css,javaScript" />
+    <meta name="description" content="Bikes" />
+    <meta name="author" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Font-awesome 5 cdn -->
+  </head>
+  <body>
+    <!-- start here -->
+    <div class="container-fluid p-0 wrapper">
+      <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="index.html"
+              ><img src="./img/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center text-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BIKES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">GEAR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">PARTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">TIRES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">SERVICE-INFO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">CATALOGUES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </nav>
+        <h1>Bikes</h1>
+      </header>
+      <main class="container-fluid p-0 main d-flex w-100 h-100 mt-5 w-100">
+        <div class="filter-wrapper h-100">
+          <div class="filter-by">
+            <h4>Filter by:</h4>
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="showAll"
+            >
+              <span class="fliterSpan bold">Show all</span>
+              <span class="number bg-orange"></span>
+            </p>
+          </div>
+          <div class="gender">
+            <h5>Gender</h5>
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="male"
+            >
+              <span class="fliterSpan">Male</span>
+
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="female"
+            >
+              <span class="fliterSpan">Female</span>
+              <span class="number"></span>
+            </p>
+          </div>
+          <div class="brand">
+            <h5>Brand</h5>
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="leGrandBikes"
+            >
+              <span class="fliterSpan">LE GRAND BIKES</span>
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="kros"
+            >
+              <span class="fliterSpan">KROSS</span>
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="explorer"
+            >
+              <span class="fliterSpan">EXPLORER</span>
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="visitors"
+            >
+              <span class="fliterSpan">VISITOR</span>
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="pony"
+            >
+              <span class="fliterSpan">PONY</span>
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="force"
+            >
+              <span class="fliterSpan">FORCE</span>
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="e-bikes"
+            >
+              <span class="fliterSpan">E-BIKES</span>
+              <span class="number"></span>
+            </p>
+
+            <p
+              class="d-flex justify-content-between filter-p filter-button"
+              id="ideal"
+            >
+              <span class="fliterSpan">IDEAL</span>
+              <span class="number"></span>
+            </p>
+          </div>
+        </div>
+        <div class="cards-wrapper row justify-content-end h-100">
+          <div class="col-12">
+            <div class="row justify-content-start rowForCards"></div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="container-fluid p-0">
+        <div class="row footer-wrapper">
+          <div class="col-3">
+            <h5>Social Share</h5>
+            <ul class="list-unstyled d-flex">
+              <li>
+                <a href=""><i class="fab fa-facebook-f text-center"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram text-center"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter text-center"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in text-center"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-3 border-start">
+            <h5>Event Info</h5>
+            <ul class="list-unstyled">
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Event Now</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Event Info</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Course Maps</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Race Pack</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Result</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">FAQs</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Am I Registered?</li></a
+              >
+            </ul>
+          </div>
+          <div class="col-3 border-start">
+            <h5>Registration</h5>
+            <ul class="list-unstyled">
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Volunteers</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Gallery</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Press</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Results</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Privacy Policy</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Service Plus</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Contacts</li></a
+              >
+            </ul>
+          </div>
+          <div class="col-3 border-start">
+            <h5>Schedule</h5>
+            <ul class="list-unstyled">
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Gallery</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">About</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Videos</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Results</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">FAQs</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Results</li></a
+              >
+              <a href="" class="text-decoration-none text-black">
+                <li class="hover">Volunteers</li></a
+              >
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/8c8fc63faf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
